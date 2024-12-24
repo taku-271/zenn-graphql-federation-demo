@@ -1,0 +1,21 @@
+{
+  "name": "Zenn Test Graphql Federation",
+  "dockerComposeFile": "./docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/app",
+  "postCreateCommand": "bun i",
+  "remoteUser": "bun",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "eamodio.gitlens",
+        "dbaeumer.vscode-eslint",
+        "streetsidesoftware.code-spell-checker",
+        "github.copilot",
+        "github.vscode-pull-request-github",
+        "prisma.prisma",
+        "graphql.vscode-graphql"
+      ]
+    }
+  }
+}

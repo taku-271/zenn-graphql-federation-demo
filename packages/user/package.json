@@ -1,0 +1,20 @@
+{
+  "name": "user",
+  "module": "src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/cors": "^2.8.17"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.11.2",
+    "@apollo/subgraph": "^2.9.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "graphql-tag": "^2.12.6",
+    "http": "^0.0.1-security"
+  }
+}

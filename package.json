@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "run:gateway": "bun --watch packages/gateway/src/index.ts",
+    "run:user": "bun --watch packages/user/src/index.ts",
+    "run:book": "bun --watch packages/book/src/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
